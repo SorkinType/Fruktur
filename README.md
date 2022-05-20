@@ -22,7 +22,13 @@ Don't hesitate to create images!
 
 ## About
 
-Description of you and/or organisation goes here.
+Viktoriya Grabowska is a type designer.
+
+Eben Sorkin designs and art directs typefaces. He works with Sorkin Type Co. and Darden Studio
+
+## Languages
+
+According to Hyperglot made by Rosetta Type, Fruktur has base support for xxx of the 459 languages of Latin script. These include:
 
 ## Building
 
@@ -42,9 +48,9 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
-**26 May 2021. Version 2.13**
+**26 May 2022. Version 1.007**
 - MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+- SIGNIFICANT Language support improved.
 
 ## License
 
