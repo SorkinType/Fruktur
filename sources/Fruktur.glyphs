@@ -29564,40 +29564,6 @@ width = 1200;
 );
 },
 {
-glyphname = caroncomb.alt.case;
-lastChange = "2022-05-20 02:11:37 +0000";
-layers = (
-{
-anchors = (
-{
-name = _topright;
-position = "{10, 1182}";
-}
-);
-layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
-paths = (
-{
-closed = 1;
-nodes = (
-"283 1183 OFFCURVE",
-"333 1380 OFFCURVE",
-"373 1510 CURVE {name = hr00;}",
-"372 1564 OFFCURVE",
-"306 1613 OFFCURVE",
-"228 1613 CURVE SMOOTH",
-"140 1613 OFFCURVE",
-"109 1586 OFFCURVE",
-"49 1556 CURVE",
-"30 1042 LINE",
-"184 1014 LINE"
-);
-}
-);
-width = 416;
-}
-);
-},
-{
 glyphname = circumflexcomb.case;
 lastChange = "2022-05-20 02:11:37 +0000";
 layers = (
