@@ -29503,68 +29503,6 @@ width = 1200;
 },
 {
 glyphname = hungarumlautcomb.case;
-lastChange = "2022-05-20 02:11:37 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{467, 1182}";
-},
-{
-name = top;
-position = "{467, 1724}";
-}
-);
-layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
-paths = (
-{
-closed = 1;
-nodes = (
-"706 1267 OFFCURVE",
-"869 1462 OFFCURVE",
-"914 1588 CURVE",
-"837 1691 OFFCURVE",
-"714 1717 OFFCURVE",
-"639 1722 CURVE SMOOTH",
-"599 1725 OFFCURVE",
-"628 1722 OFFCURVE",
-"585 1722 CURVE",
-"561 1615 OFFCURVE",
-"522 1480 OFFCURVE",
-"465 1338 CURVE",
-"491 1300 OFFCURVE",
-"554 1245 OFFCURVE",
-"623 1231 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"248 1267 OFFCURVE",
-"416 1469 OFFCURVE",
-"457 1588 CURVE",
-"379 1696 OFFCURVE",
-"291 1719 OFFCURVE",
-"209 1723 CURVE SMOOTH",
-"172 1725 OFFCURVE",
-"175 1723 OFFCURVE",
-"137 1723 CURVE {name = hr00;}",
-"115 1623 OFFCURVE",
-"70 1468 OFFCURVE",
-"20 1334 CURVE",
-"44 1290 OFFCURVE",
-"119 1240 OFFCURVE",
-"165 1231 CURVE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-glyphname = hungarumlautcomb.case;
 lastChange = "2022-05-20 00:37:12 +0000";
 layers = (
 {
