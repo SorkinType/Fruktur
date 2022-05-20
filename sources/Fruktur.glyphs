@@ -304,11 +304,11 @@ name = sups;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb gravecomb_macroncomb acutecomb acutecomb_macroncomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb macronbelowcomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case gravecomb_macroncomb.case acutecomb.case acutecomb_macroncomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case circumflexbelowcomb.case brevebelowcomb.case macronbelowcomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
@@ -321,9 +321,13 @@ lookup ccmp_Other_2 {
 lookup ccmp_Other_3 {
 	lookupflag 0;
 	sub acutecomb macroncomb by acutecomb_macroncomb;
+	sub acutecomb.case macroncomb.case by acutecomb_macroncomb.case;
 	sub gravecomb macroncomb by gravecomb_macroncomb;
+	sub gravecomb.case macroncomb.case by gravecomb_macroncomb.case;
 	sub macroncomb acutecomb by macroncomb_acutecomb;
+	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;
 	sub macroncomb gravecomb by macroncomb_gravecomb;
+	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
 } ccmp_Other_3;
 
 lookup ccmp_latn_1 {
@@ -353,66 +357,6 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "sub zero by zero.subs;
-sub one by one.subs;
-sub two by two.subs;
-sub three by three.subs;
-sub four by four.subs;
-sub five by five.subs;
-sub six by six.subs;
-sub seven by seven.subs;
-sub eight by eight.subs;
-sub nine by nine.subs;
-";
-name = subs;
-},
-{
-automatic = 1;
-code = "sub zero by zero.subs;
-sub one by one.subs;
-sub two by two.subs;
-sub three by three.subs;
-sub four by four.subs;
-sub five by five.subs;
-sub six by six.subs;
-sub seven by seven.subs;
-sub eight by eight.subs;
-sub nine by nine.subs;
-";
-name = sinf;
-},
-{
-automatic = 1;
-code = "sub zero by zero.numr;
-sub one by one.numr;
-sub two by two.numr;
-sub three by three.numr;
-sub four by four.numr;
-sub five by five.numr;
-sub six by six.numr;
-sub seven by seven.numr;
-sub eight by eight.numr;
-sub nine by nine.numr;
-";
-name = numr;
-},
-{
-automatic = 1;
-code = "sub zero by zero.dnom;
-sub one by one.dnom;
-sub two by two.dnom;
-sub three by three.dnom;
-sub four by four.dnom;
-sub five by five.dnom;
-sub six by six.dnom;
-sub seven by seven.dnom;
-sub eight by eight.dnom;
-sub nine by nine.dnom;
-";
-name = dnom;
-},
-{
-automatic = 1;
 code = "sub zero by zero.lf;
 sub one by one.lf;
 sub two by two.lf;
@@ -428,56 +372,6 @@ name = lnum;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero.lf;
-sub one.tf by one.lf;
-sub two.tf by two.lf;
-sub three.tf by three.lf;
-sub four.tf by four.lf;
-sub five.tf by five.lf;
-sub six.tf by six.lf;
-sub seven.tf by seven.lf;
-sub eight.tf by eight.lf;
-sub nine.tf by nine.lf;
-sub zero.tosf by zero;
-sub one.tosf by one;
-sub two.tosf by two;
-sub three.tosf by three;
-sub four.tosf by four;
-sub five.tosf by five;
-sub six.tosf by six;
-sub seven.tosf by seven;
-sub eight.tosf by eight;
-sub nine.tosf by nine;
-";
-name = pnum;
-},
-{
-automatic = 1;
-code = "sub zero.lf by zero.tf;
-sub one.lf by one.tf;
-sub two.lf by two.tf;
-sub three.lf by three.tf;
-sub four.lf by four.tf;
-sub five.lf by five.tf;
-sub six.lf by six.tf;
-sub seven.lf by seven.tf;
-sub eight.lf by eight.tf;
-sub nine.lf by nine.tf;
-sub zero by zero.tosf;
-sub one by one.tosf;
-sub two by two.tosf;
-sub three by three.tosf;
-sub four by four.tosf;
-sub five by five.tosf;
-sub six by six.tosf;
-sub seven by seven.tosf;
-sub eight by eight.tosf;
-sub nine by nine.tosf;
-";
-name = tnum;
-},
-{
-automatic = 1;
 code = "sub zero.lf by zero;
 sub one.lf by one;
 sub two.lf by two;
@@ -488,16 +382,6 @@ sub six.lf by six;
 sub seven.lf by seven;
 sub eight.lf by eight;
 sub nine.lf by nine;
-sub zero.tf by zero.tosf;
-sub one.tf by one.tosf;
-sub two.tf by two.tosf;
-sub three.tf by three.tosf;
-sub four.tf by four.tosf;
-sub five.tf by five.tosf;
-sub six.tf by six.tosf;
-sub seven.tf by seven.tosf;
-sub eight.tf by eight.tosf;
-sub nine.tf by nine.tosf;
 sub zero by zero.osf;
 sub one by one.osf;
 sub two by two.osf;
@@ -513,39 +397,21 @@ name = onum;
 },
 {
 automatic = 1;
-code = "sub exclamdown by exclamdown.case;
-sub questiondown by questiondown.case;
-sub periodcentered by periodcentered.case;
-sub bullet by bullet.case;
-sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-sub slash by slash.case;
-sub backslash by backslash.case;
-sub parenleft by parenleft.case;
-sub parenright by parenright.case;
-sub braceleft by braceleft.case;
-sub braceright by braceright.case;
-sub bracketleft by bracketleft.case;
-sub bracketright by bracketright.case;
-sub hyphen by hyphen.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
-sub guillemetleft by guillemetleft.case;
-sub guillemetright by guillemetright.case;
-sub guilsinglleft by guilsinglleft.case;
-sub guilsinglright by guilsinglright.case;
-sub at by at.case;
-sub dieresiscomb by dieresiscomb.case;
+code = "sub dieresiscomb by dieresiscomb.case;
 sub dotaccentcomb by dotaccentcomb.case;
 sub gravecomb by gravecomb.case;
+sub gravecomb_macroncomb by gravecomb_macroncomb.case;
 sub acutecomb by acutecomb.case;
+sub acutecomb_macroncomb by acutecomb_macroncomb.case;
 sub hungarumlautcomb by hungarumlautcomb.case;
-sub caroncomb.alt by caroncomb.alt.case;
 sub circumflexcomb by circumflexcomb.case;
 sub caroncomb by caroncomb.case;
 sub brevecomb by brevecomb.case;
 sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
+sub macroncomb_gravecomb by macroncomb_gravecomb.case;
+sub macroncomb_acutecomb by macroncomb_acutecomb.case;
 sub hookabovecomb by hookabovecomb.case;
 sub dblgravecomb by dblgravecomb.case;
 sub breveinvertedcomb by breveinvertedcomb.case;
@@ -556,6 +422,7 @@ sub dieresisbelowcomb by dieresisbelowcomb.case;
 sub commaaccentcomb by commaaccentcomb.case;
 sub cedillacomb by cedillacomb.case;
 sub ogonekcomb by ogonekcomb.case;
+sub circumflexbelowcomb by circumflexbelowcomb.case;
 sub brevebelowcomb by brevebelowcomb.case;
 sub macronbelowcomb by macronbelowcomb.case;
 sub brevecomb_acutecomb by brevecomb_acutecomb.case;
@@ -586,26 +453,6 @@ sub six.osf by six.lf;
 sub seven.osf by seven.lf;
 sub eight.osf by eight.lf;
 sub nine.osf by nine.lf;
-sub zero.tf by zero.lf;
-sub one.tf by one.lf;
-sub two.tf by two.lf;
-sub three.tf by three.lf;
-sub four.tf by four.lf;
-sub five.tf by five.lf;
-sub six.tf by six.lf;
-sub seven.tf by seven.lf;
-sub eight.tf by eight.lf;
-sub nine.tf by nine.lf;
-sub zero.tosf by zero.lf;
-sub one.tosf by one.lf;
-sub two.tosf by two.lf;
-sub three.tosf by three.lf;
-sub four.tosf by four.lf;
-sub five.tosf by five.lf;
-sub six.tosf by six.lf;
-sub seven.tosf by seven.lf;
-sub eight.tosf by eight.lf;
-sub nine.tosf by nine.lf;
 ";
 name = case;
 },
@@ -619,16 +466,6 @@ sub f i by fi;
 sub f l by fl;
 ";
 name = liga;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;
-sub zero.lf by zero.lf.zero;
-sub zero.osf by zero.osf.zero;
-sub zero.tf by zero.tf.zero;
-sub zero.tosf by zero.tosf.zero;
-";
-name = zero;
 },
 {
 code = "sub Iacute Jacute by IJ_acutecomb;
@@ -2043,7 +1880,7 @@ unicode = 01C4;
 },
 {
 glyphname = Dafrican;
-lastChange = "2022-05-20 00:30:09 +0000";
+lastChange = "2022-05-20 03:47:47 +0000";
 layers = (
 {
 components = (
@@ -2055,7 +1892,7 @@ layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
 width = 1334;
 }
 );
-unicode = 0189;
+unicode = "0189,0256";
 },
 {
 glyphname = Eth;
@@ -29043,44 +28880,6 @@ width = 909;
 );
 },
 {
-glyphname = caron.cap;
-lastChange = "2022-05-20 00:37:12 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{461, 0}";
-}
-);
-layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
-paths = (
-{
-closed = 1;
-nodes = (
-"375 1603 OFFCURVE",
-"530 1613 OFFCURVE",
-"579 1622 CURVE",
-"838 1888 LINE {name = hr00;}",
-"815 1935 OFFCURVE",
-"747 1998 OFFCURVE",
-"697 2020 CURVE",
-"605 1954 OFFCURVE",
-"561 1905 OFFCURVE",
-"492 1804 CURVE",
-"324 2002 LINE",
-"233 2009 OFFCURVE",
-"102 1877 OFFCURVE",
-"98 1804 CURVE",
-"323 1614 LINE"
-);
-}
-);
-width = 909;
-}
-);
-},
-{
 glyphname = breve.cap;
 lastChange = "2022-05-20 00:37:12 +0000";
 layers = (
@@ -30760,7 +30559,8 @@ width = 909;
 );
 },
 {
-glyphname = NULL;
+glyphname = uni0000;
+lastChange = "2022-05-20 03:47:47 +0000";
 layers = (
 {
 layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
