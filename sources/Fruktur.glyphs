@@ -1,113 +1,7 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"/Dafrican",
-"/abrevehookabove",
-"/brevecomb_tildecomb",
-"/divisionslash",
-"­",
-"/bdotaccent",
-"/ddotaccent",
-"/ij_acutecomb",
-"/hcaron",
-o,
-r,
-s,
-t,
-w,
-x,
-y,
-z,
-A,
-"Æ",
-B,
-C,
-D,
-E,
-"/Ecircumflexacute",
-F,
-G,
-H,
-"IJ/IJ_acutecomb",
-"/IJ_acutecomb",
-K,
-L,
-"L/Lcaron",
-M,
-N,
-O,
-"O/horncomb.case/Ohorn",
-"/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/tildecomb.case/horncomb.case/Ohorn/Ohorntilde/Ohungarumlaut/Oinvertedbreve/Omacron/Omacronacute/Omacrongrave/Oogonek",
-"Ø",
-"Õ/tildecomb.case/Otildeacute/Otildedieresis/macroncomb.case/Otildemacron",
-P,
-R,
-S,
-"/Saltillo",
-"/Schwa",
-T,
-U,
-"/horncomb.case/Uhorn",
-"/Vturned",
-W,
-Y,
-Z,
-"ß",
-"/Germandbls",
-h,
-"/twothirds",
-"/twothirds",
-"¾",
-"/nine.osf",
-"/zero.lf O",
-"/six.lf",
-"/seven.lf",
-"/zero.lf",
-"/one.lf",
-"/two.lf",
-"/four.lf",
-"/five.lf",
-"/eight.lf",
-"/nine.lf",
-"/figuredash 0",
-"/cedi",
-"/cedi",
-"/colonsign",
-"/dong",
-"/dcroat",
-"/franc",
-"/guarani",
-"/kip",
-"£",
-"/lira",
-"/manat",
-"|",
-"",
-"/peseta",
-"",
-"/partialdiff",
-"/quoteright",
-"/second",
-"/estimated",
-"/won",
-"/peseta/won",
-"/ruble",
-"",
-"",
-"/euro",
-"/liraTurkish",
-"/careof",
-"/figurespace",
-"#",
-"/Ldot L",
-"o/horncomb/ohorn",
-"/tildecomb/ohorntilde",
-"o/ohorn/ohorntilde",
-"/Sacute",
-"/acutecomb.case Æ/AEacute",
-"/Abreveacute",
-"/Otildeacute",
-"/dieresiscomb.case/Udieresisacute"
+"/Acaron/Ccaron/DZcaron/Dcaron/Dzcaron/Ecaron/Gcaron/Hcaron/Icaron/Lcaron/Ncaron/Ocaron/Rcaron/Scaron/Scarondotaccent/Tcaron/Ucaron/caroncomb.case/Udieresiscaron/Zcaron"
 );
 classes = (
 {
@@ -1872,20 +1766,16 @@ unicode = 01F1;
 },
 {
 glyphname = DZcaron;
-lastChange = "2022-05-20 02:51:12 +0000";
+lastChange = "2022-05-20 04:26:08 +0000";
 layers = (
 {
 components = (
 {
-name = D;
+name = DZ;
 },
 {
-name = Z;
-transform = "{1, 0, 0, 1, 1334, 0}";
-},
-{
-name = caron.cap;
-transform = "{1, 0, 0, 1, 1477, 1529}";
+name = caroncomb.case;
+transform = "{1, 0, 0, 1, 1466, 347}";
 }
 );
 layerId = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
@@ -4126,16 +4016,12 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2022-05-20 02:19:48 +0000";
+lastChange = "2022-05-20 04:26:02 +0000";
 layers = (
 {
 components = (
 {
 name = L;
-},
-{
-name = caron.cap;
-transform = "{1, 0, 0, 1, 110, 1529}";
 },
 {
 name = caroncomb.alt;
