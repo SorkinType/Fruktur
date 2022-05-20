@@ -139,69 +139,75 @@ code = "  feature locl;
 name = aalt;
 },
 {
-code = " # Localized Forms
- script DFLT;
- script latn;
-# Latin
-language AZE  exclude_dflt; # Azeri
-    sub i by i.cy;
-language CAT;
-	sub l periodcentered' l by ldot;
-	sub L periodcentered' L by Ldot;
-language NLD;
-	sub iacute j by ij_acutecomb;
-	sub Iacute J by IJ_acutecomb;
-language TRK  exclude_dflt; # Turkish
-    sub i by i.cy;
-language ROM exclude_dflt; # Romanian
-lookup locl_ROM { 
-  sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
-  sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent]; 
-} locl_ROM;
-language MOL exclude_dflt; # Moldavian
-lookup locl_ROM;";
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
+";
 name = locl;
 },
 {
-code = " script DFLT;
- script latn;
-  sub @ordn1 a' by ordfeminine;
-  sub @ordn1 o' by ordmasculine;
-  sub @ordn1 period a' by ordfeminine;
-  sub @ordn1 period o' by ordmasculine;
- language AZE ; # Azeri
- language TRK ; # Turkish
- language MOL ; # Moldavian
- language ROM ; # Romanian
- ";
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+";
 name = ordn;
 },
 {
-code = " # Fractions
- script DFLT;
- script latn; # Latin
-    sub one slash four by onequarter;
-    sub one slash two by onehalf;
-    sub three slash four by threequarters;
-    sub zero slash zero zero by perthousand;
-    sub zero slash zero by percent;
- language AZE ; # Azeri
- language TRK ; # Turkish
- language MOL ; # Moldavian
- language ROM ; # Romanian
- ";
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+sub one slash three by onethird;
+sub two slash three by twothirds;
+";
 name = frac;
 },
 {
-code = " # Superscript
- script DFLT;
- script latn; # Latin
-    sub @sups1 by @sups2;  
- language AZE ; # Azeri
- language TRK ; # Turkish
- language MOL ; # Moldavian
- language ROM ; # Romanian
- ";
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+";
 name = sups;
 },
 {
