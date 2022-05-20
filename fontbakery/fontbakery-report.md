@@ -25,16 +25,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* agrave
-	* uni01CD
-	* Cdotaccent
-	* ccedilla
-	* aeacute
-	* Scircumflex
-	* question
-	* oacute
-	* Iogonek
-	* uacute and 189 more.
+	* uni0162
+	* uni0326
+	* quotedbl
+	* tilde
+	* uni1E60
+	* uni01CB
+	* Adieresis
+	* quotesingle
+	* Ubreve
+	* exclamdown and 189 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
