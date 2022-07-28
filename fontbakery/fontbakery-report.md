@@ -25,16 +25,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Iogonek
-	* uni1E60
-	* Cdotaccent
-	* Ecaron
-	* zdotaccent
-	* uni021B
-	* Scaron
-	* ograve
-	* tcaron
-	* uni1E44 and 189 more.
+	* Agrave
+	* Uogonek
+	* uni021A
+	* Ugrave
+	* egrave
+	* uni0163
+	* uni1E6A
+	* utilde
+	* Gdotaccent
+	* ebreve and 193 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -60,6 +60,7 @@ Use -F or --full-lists to disable shortening of long lists.
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: copyright	Contours detected: 2	Expected: 3
+	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -67,9 +68,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2 
-	- And 56 more.
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2 
+	- And 58 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -94,7 +94,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* Wcircumflex (U+0174): L<<314.0,291.0>--<107.0,1086.0>> -> L<<107.0,1086.0>--<104.0,1097.0>>
 	* Wdieresis (U+1E84): L<<314.0,291.0>--<107.0,1086.0>> -> L<<107.0,1086.0>--<104.0,1097.0>>
 	* Wgrave (U+1E80): L<<314.0,291.0>--<107.0,1086.0>> -> L<<107.0,1086.0>--<104.0,1097.0>>
-	* dong (U+20AB): L<<154.0,203.0>--<601.0,233.0>> -> L<<601.0,233.0>--<1078.0,271.0>> and 35 more.
+	* dong (U+20AB): L<<185.0,203.0>--<632.0,233.0>> -> L<<632.0,233.0>--<1109.0,271.0>> and 35 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -115,7 +115,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
  * Uacute (U+00DA): L<<524.0,1174.0>--<523.0,786.0>>
  * Ubreve (U+016C): L<<524.0,1174.0>--<523.0,786.0>>
  * Ucircumflex (U+00DB): L<<524.0,1174.0>--<523.0,786.0>>
- * Udieresis (U+00DC): L<<524.0,1174.0>--<523.0,786.0>> and 69 more.
+ * Udieresis (U+00DC): L<<524.0,1174.0>--<523.0,786.0>> and 73 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>

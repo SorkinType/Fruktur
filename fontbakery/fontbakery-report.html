@@ -117,16 +117,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* Iogonek
-* uni1E60
-* Cdotaccent
-* Ecaron
-* zdotaccent
-* uni021B
-* Scaron
-* ograve
-* tcaron
-* uni1E44 and 189 more.</p>
+* Agrave
+* Uogonek
+* uni021A
+* Ugrave
+* egrave
+* uni0163
+* uni1E6A
+* utilde
+* Gdotaccent
+* ebreve and 193 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -154,6 +154,7 @@
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: copyright	Contours detected: 2	Expected: 3
+- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
 - Glyph name: oslash	Contours detected: 2	Expected: 3
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -161,9 +162,8 @@
 - Glyph name: ohorn	Contours detected: 3	Expected: 2
 - Glyph name: Uhorn	Contours detected: 2	Expected: 1
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
-- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-- Glyph name: uni01EB	Contours detected: 3	Expected: 2 
-- And 56 more.
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2 
+- And 58 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -193,7 +193,7 @@
 * Wcircumflex (U+0174): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
 * Wdieresis (U+1E84): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
 * Wgrave (U+1E80): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
-* dong (U+20AB): L&lt;&lt;154.0,203.0&gt;--&lt;601.0,233.0&gt;&gt; -&gt; L&lt;&lt;601.0,233.0&gt;--&lt;1078.0,271.0&gt;&gt; and 35 more.</p>
+* dong (U+20AB): L&lt;&lt;185.0,203.0&gt;--&lt;632.0,233.0&gt;&gt; -&gt; L&lt;&lt;632.0,233.0&gt;--&lt;1109.0,271.0&gt;&gt; and 35 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]</p>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
@@ -216,7 +216,7 @@
 <li>Uacute (U+00DA): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
 <li>Ubreve (U+016C): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
 <li>Ucircumflex (U+00DB): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
-<li>Udieresis (U+00DC): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt; and 69 more.</li>
+<li>Udieresis (U+00DC): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt; and 73 more.</li>
 </ul>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>
