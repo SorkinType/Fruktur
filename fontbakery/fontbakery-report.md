@@ -25,16 +25,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Egrave
-	* quotedblleft
 	* quotesinglbase
-	* ohungarumlaut
-	* Uhungarumlaut
-	* quoteleft
-	* uhungarumlaut
-	* uni01F4
-	* uni1E02
-	* ubreve and 193 more.
+	* quotedblbase
+	* Uacute
+	* Ocircumflex
+	* ugrave
+	* utilde
+	* uni01CD
+	* Yacute
+	* edotaccent
+	* uni1E61 and 193 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -115,7 +115,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
  * Uacute (U+00DA): L<<524.0,1174.0>--<523.0,786.0>>
  * Ubreve (U+016C): L<<524.0,1174.0>--<523.0,786.0>>
  * Ucircumflex (U+00DB): L<<524.0,1174.0>--<523.0,786.0>>
- * Udieresis (U+00DC): L<<524.0,1174.0>--<523.0,786.0>> and 73 more.
+ * Udieresis (U+00DC): L<<524.0,1174.0>--<523.0,786.0>> and 74 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
