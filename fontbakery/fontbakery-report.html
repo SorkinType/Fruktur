@@ -73,24 +73,24 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>0</td>
+                <td>1</td>
                 <td>13</td>
-                <td>105</td>
+                <td>104</td>
                 <td>7</td>
                 <td>100</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>0%</td>
+                <td>1%</td>
                 <td>8%</td>
-                <td>61%</td>
+                <td>60%</td>
                 <td>4%</td>
                 <td>58%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Check copyright namerecords match license file.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
 
@@ -117,16 +117,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* abreve
+* uni01D1
+* Cdotaccent
+* iogonek
+* integral
 * uhungarumlaut
-* period
-* Edieresis
-* Abreve
-* Ntilde
-* Otilde
-* AEacute
-* Ycircumflex
-* Wacute and 193 more.</p>
+* eacute
+* Cacute
+* colon
+* Ubreve
+* uacute and 199 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -134,12 +134,29 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]</p>
 </span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- f + f
+- f + i
+- i + f
+- f + l
+- l + f
+- i + l</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 2726, but got 2635 instead [code: ascent]</p>
+</span></li></ul></div></details>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
@@ -155,15 +172,15 @@
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: copyright	Contours detected: 2	Expected: 3
 - Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
-- Glyph name: oslash	Contours detected: 2	Expected: 3
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 - Glyph name: ohorn	Contours detected: 3	Expected: 2
 - Glyph name: Uhorn	Contours detected: 2	Expected: 1
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
-- Glyph name: uni01EA	Contours detected: 3	Expected: 2 
-- And 58 more.
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2 
+- And 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -172,12 +189,6 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️</h2>
-<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️</h2>
 <h3>Do any segments have colinear vectors?</h3>
@@ -193,14 +204,14 @@
 * Wcircumflex (U+0174): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
 * Wdieresis (U+1E84): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
 * Wgrave (U+1E80): L&lt;&lt;314.0,291.0&gt;--&lt;107.0,1086.0&gt;&gt; -&gt; L&lt;&lt;107.0,1086.0&gt;--&lt;104.0,1097.0&gt;&gt;
-* dong (U+20AB): L&lt;&lt;185.0,203.0&gt;--&lt;632.0,233.0&gt;&gt; -&gt; L&lt;&lt;632.0,233.0&gt;--&lt;1109.0,271.0&gt;&gt; and 35 more.</p>
+* dong (U+20AB): L&lt;&lt;185.0,203.0&gt;--&lt;632.0,233.0&gt;&gt; -&gt; L&lt;&lt;632.0,233.0&gt;--&lt;1109.0,271.0&gt;&gt; and 37 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]</p>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
-* X (U+0058): B&lt;&lt;677.5,1123.0&gt;-&lt;697.0,1011.0&gt;-&lt;702.0,936.0&gt;&gt;/B&lt;&lt;702.0,936.0&gt;-&lt;718.0,1059.0&gt;-&lt;737.0,1161.0&gt;&gt; = 11.225567693469205 and uni1E8C (U+1E8C): B&lt;&lt;677.5,1123.0&gt;-&lt;697.0,1011.0&gt;-&lt;702.0,936.0&gt;&gt;/B&lt;&lt;702.0,936.0&gt;-&lt;718.0,1059.0&gt;-&lt;737.0,1161.0&gt;&gt; = 11.225567693469205 [code: found-jaggy-segments]</p>
+* X (U+0058): B&lt;&lt;671.5,1123.0&gt;-&lt;691.0,1011.0&gt;-&lt;696.0,936.0&gt;&gt;/B&lt;&lt;696.0,936.0&gt;-&lt;712.0,1059.0&gt;-&lt;731.0,1161.0&gt;&gt; = 11.225567693469205 and uni1E8C (U+1E8C): B&lt;&lt;671.5,1123.0&gt;-&lt;691.0,1011.0&gt;-&lt;696.0,936.0&gt;&gt;/B&lt;&lt;696.0,936.0&gt;-&lt;712.0,1059.0&gt;-&lt;731.0,1161.0&gt;&gt; = 11.225567693469205 [code: found-jaggy-segments]</p>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
@@ -216,7 +227,7 @@
 <li>Uacute (U+00DA): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
 <li>Ubreve (U+016C): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
 <li>Ucircumflex (U+00DB): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt;</li>
-<li>Udieresis (U+00DC): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt; and 74 more.</li>
+<li>Udieresis (U+00DC): L&lt;&lt;524.0,1174.0&gt;--&lt;523.0,786.0&gt;&gt; and 68 more.</li>
 </ul>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>
