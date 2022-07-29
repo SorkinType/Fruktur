@@ -29,16 +29,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni01D1
-	* Cdotaccent
-	* iogonek
+	* exclamdown
 	* integral
-	* uhungarumlaut
-	* eacute
-	* Cacute
-	* colon
-	* Ubreve
-	* uacute and 199 more.
+	* wdieresis
+	* Ecircumflex
+	* uni021B
+	* Jcircumflex
+	* quotereversed
+	* exclam
+	* breve
+	* ohungarumlaut and 199 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
