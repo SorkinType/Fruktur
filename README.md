@@ -44,12 +44,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
 
 **28 May 2022. Version 1.007**
-- SIGNIFICANT Language support improved.
+- SIGNIFICANT Language support and symbols support improved.
+- SIGNIFICANT kerning added.
 
 ## License
 
