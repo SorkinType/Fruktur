@@ -484,6 +484,7 @@ horizontalStems = (
 434
 );
 id = "ED69ACE7-BE83-49AD-8DAF-057B7A1FF3CB";
+italicAngle = 8;
 userData = {
 KernOnModels = (
 "period T",
