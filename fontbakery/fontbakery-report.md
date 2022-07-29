@@ -128,16 +128,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ntilde
-	* Yacute
-	* numbersign
-	* Wgrave
-	* umacron
-	* Ecircumflex
-	* Scircumflex
-	* odieresis
-	* Ccedilla
-	* Scedilla and 199 more.
+	* Ohungarumlaut
+	* Ccaron
+	* j
+	* Eacute
+	* Racute
+	* uni1E1F
+	* ubreve
+	* ugrave
+	* uni1E21
+	* Abreve and 199 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
