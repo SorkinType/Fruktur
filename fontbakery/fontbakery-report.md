@@ -2,7 +2,11 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[13] Fruktur-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[14] Fruktur-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 558, but got 540 instead. [code: descent]
+</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
@@ -25,16 +29,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* lacute
-	* Cacute
-	* Oacute
-	* semicolon
-	* ydieresis
-	* Adieresis
-	* colon
-	* Acircumflex
-	* egrave
-	* oslash and 199 more.
+	* ibreve
+	* exclamdown
+	* uni01CA
+	* obreve
+	* Ygrave
+	* racute
+	* quotereversed
+	* Gcircumflex
+	* Ucircumflex
+	* Ycircumflex and 199 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -72,7 +76,6 @@ Use -F or --full-lists to disable shortening of long lists.
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: copyright	Contours detected: 2	Expected: 3
-	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -80,8 +83,9 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2 
-	- And 54 more.
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+	- Glyph name: Oslashacute	Contours detected: 3	Expected: 4 
+	- And 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -131,8 +135,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 13 | 104 | 7 | 101 | 0 |
-| 0% | 0% | 6% | 46% | 3% | 45% | 0% |
+| 0 | 1 | 13 | 104 | 7 | 100 | 0 |
+| 0% | 0% | 6% | 46% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

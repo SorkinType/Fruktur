@@ -73,19 +73,19 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>0</td>
+                <td>1</td>
                 <td>13</td>
                 <td>104</td>
                 <td>7</td>
-                <td>101</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>0%</td>
+                <td>1%</td>
                 <td>8%</td>
                 <td>60%</td>
                 <td>4%</td>
-                <td>59%</td>
+                <td>58%</td>
             </tr>
             </table>
             
@@ -117,16 +117,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* lacute
-* Cacute
-* Oacute
-* semicolon
-* ydieresis
-* Adieresis
-* colon
-* Acircumflex
-* egrave
-* oslash and 199 more.</p>
+* ibreve
+* exclamdown
+* uni01CA
+* obreve
+* Ygrave
+* racute
+* quotereversed
+* Gcircumflex
+* Ucircumflex
+* Ycircumflex and 199 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -151,7 +151,12 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Fruktur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 558, but got 540 instead. [code: descent]</p>
+</span></li></ul></div></details>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
@@ -166,7 +171,6 @@
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: copyright	Contours detected: 2	Expected: 3
-- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -174,8 +178,9 @@
 - Glyph name: Uhorn	Contours detected: 2	Expected: 1
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 - Glyph name: uni01EA	Contours detected: 3	Expected: 2
-- Glyph name: uni01EB	Contours detected: 3	Expected: 2 
-- And 54 more.
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+- Glyph name: Oslashacute	Contours detected: 3	Expected: 4 
+- And 52 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
