@@ -26,7 +26,7 @@ copyright = "Copyright 2022 The Fruktur Project Authors (https://github.com/Sork
 customParameters = (
 {
 name = description;
-value = "Fruktur appears to be a playful and powerful black letter type at Fruktur initially appears to be a playful and powerful black letter type with a warm friendly feeling. However its construction is closer to that of an upright italic. Fruktur offers some of the feeling of a black letter but with higher legibility and greater utility than is typical of black letter type. Fruktur will be most useful from medium to large sizes.";
+value = "Fruktur is a lively serif design inspired by structures found in italic and blackletter shapes. Fruktur is unrepentantly perky and cheerful. Although superfcially a display design, it also works in text far better than you might imagine.";
 },
 {
 name = license;
@@ -103,7 +103,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2022-05-20 00:39:42 +0000";
+date = "2022-07-29 02:49:45 +0000";
 designer = "Viktoriya Grabowska, Eben Sorkin";
 designerURL = www.vikaniesiada.blogspot.com;
 familyName = Fruktur;
@@ -425,7 +425,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2635;
+value = 2726;
 },
 {
 name = winDescent;
@@ -59961,5 +59961,5 @@ y = 1814;
 UFOFormat = 2;
 };
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 8;
 }
