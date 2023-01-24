@@ -2,7 +2,12 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[13] Fruktur-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[14] Fruktur-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.00799560546875 is equal to version on Google Fonts.
+* 🔥 **FAIL** Version number 1.00799560546875 is equal to version on Google Fonts GitHub repo.
+</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
@@ -25,16 +30,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ntilde
-	* uni01C7
-	* eacute
-	* ograve
-	* quotereversed
-	* oacute
-	* wacute
-	* uni0163
-	* Hcircumflex
-	* lcaron and 202 more.
+	* uni1EA8
+	* uni1EED
+	* uni1EF0
+	* Ohorn
+	* uni1ED0
+	* uni1EE9
+	* Yacute
+	* uni1EEA
+	* oslash
+	* Ycircumflex and 75 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -131,8 +136,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 13 | 104 | 7 | 101 | 0 |
-| 0% | 0% | 6% | 46% | 3% | 45% | 0% |
+| 0 | 1 | 13 | 104 | 7 | 100 | 0 |
+| 0% | 0% | 6% | 46% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
